@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="dssss.jpg" alt="Student Portal Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="courses-management.html">Manage Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="courses-section">
+            <h1>Courses Catalog</h1>
+            <input type="text" id="search-input" placeholder="Search for a course..." onkeyup="filterCourses()">
+            <div id="courses-list">
+                <!-- Dynamic course list will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Portal</p>
+    </footer>
+
+    <script src="courses.js"></script>
+</body>
+</html>

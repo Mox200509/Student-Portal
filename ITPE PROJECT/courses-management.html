@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="dssss.jpg" alt="Student Portal Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="courses-management.html">Manage Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="courses-management-section">
+            <h1>Manage Courses</h1>
+
+            <!-- Form to Add New Course -->
+            <h2>Add New Course</h2>
+            <form id="add-course-form">
+                <div class="form-group">
+                    <label for="course-title">Course Title:</label>
+                    <input type="text" id="course-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="course-description">Course Description:</label>
+                    <textarea id="course-description" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="course-instructor">Instructor Name:</label>
+                    <input type="text" id="course-instructor" required>
+                </div>
+                <button type="submit">Add Course</button>
+            </form>
+
+            <!-- List of Existing Courses -->
+            <h2>Existing Courses</h2>
+            <div id="courses-list">
+                <!-- Dynamic list of courses will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Portal</p>
+    </footer>
+
+    <script src="courses-management.js"></script>
+</body>
+</html>

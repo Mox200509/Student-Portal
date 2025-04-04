@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="dssss.jpg" alt="Student Portal Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="grades-overview.html">Grades Overview</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-section">
+            <h1>Your Profile</h1>
+            
+            <div class="profile-details">
+                <p><strong>Name:</strong> <span id="profile-name">John Doe</span></p>
+                <p><strong>Email:</strong> <span id="profile-email">johndoe@example.com</span></p>
+                <p><strong>Course:</strong> <span id="profile-course">Web Development</span></p>
+            </div>
+
+            <button id="edit-profile-btn">Edit Profile</button>
+
+            <div id="edit-form" class="edit-form">
+                <h2>Edit Profile</h2>
+                <form id="edit-profile-form">
+                    <div class="form-group">
+                        <label for="edit-name">Name:</label>
+                        <input type="text" id="edit-name" value="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-email">Email:</label>
+                        <input type="email" id="edit-email" value="johndoe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-course">Course:</label>
+                        <input type="text" id="edit-course" value="Web Development">
+                    </div>
+                    <button type="submit">Save Changes</button>
+                    <button type="button" id="cancel-edit-btn">Cancel</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Portal</p>
+    </footer>
+
+    <script src="profile.js"></script>
+</body>
+</html>

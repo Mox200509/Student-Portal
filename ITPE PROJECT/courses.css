@@ -1,0 +1,52 @@
+/* Styling for the Courses Catalog Page */
+.courses-section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.courses-section h1 {
+    color: orange;
+    text-align: center;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.course-item {
+    background-color: #333;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.course-item h2 {
+    color: orange;
+}
+
+.course-item p {
+    color: #ddd;
+}
+
+.course-item .view-details {
+    background-color: #ff7f00;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-item .view-details:hover {
+    background-color: #e57300;
+}

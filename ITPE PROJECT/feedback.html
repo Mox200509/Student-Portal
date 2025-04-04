@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback/Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="dssss.jpg" alt="Student Portal Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="grades-overview.html">Grades Overview</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feedback-section">
+            <h1>Feedback/Survey</h1>
+            <p>We value your feedback! Please fill out the form below to provide your feedback or participate in a survey.</p>
+
+            <form id="feedback-form">
+                <!-- Question 1: Rating -->
+                <div class="form-group">
+                    <label for="rating">How would you rate your experience?</label>
+                    <div>
+                        <label><input type="radio" name="rating" value="1"> 1</label>
+                        <label><input type="radio" name="rating" value="2"> 2</label>
+                        <label><input type="radio" name="rating" value="3"> 3</label>
+                        <label><input type="radio" name="rating" value="4"> 4</label>
+                        <label><input type="radio" name="rating" value="5"> 5</label>
+                    </div>
+                </div>
+
+                <!-- Question 2: Comments -->
+                <div class="form-group">
+                    <label for="comments">Additional Comments:</label>
+                    <textarea id="comments" name="comments" rows="5" placeholder="Write your feedback here..."></textarea>
+                </div>
+
+                <!-- Question 3: Likelihood to Recommend -->
+                <div class="form-group">
+                    <label>How likely are you to recommend this portal to others?</label>
+                    <div>
+                        <label><input type="radio" name="recommend" value="Very Likely"> Very Likely</label>
+                        <label><input type="radio" name="recommend" value="Likely"> Likely</label>
+                        <label><input type="radio" name="recommend" value="Neutral"> Neutral</label>
+                        <label><input type="radio" name="recommend" value="Unlikely"> Unlikely</label>
+                        <label><input type="radio" name="recommend" value="Very Unlikely"> Very Unlikely</label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit Feedback</button>
+            </form>
+
+            <div id="thank-you-message" style="display:none; margin-top: 20px; text-align: center; color: white;">
+                <h2>Thank you for your feedback!</h2>
+                <p>Your response has been successfully submitted.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Portal</p>
+    </footer>
+
+    <script src="feedback.js"></script>
+</body>
+</html>

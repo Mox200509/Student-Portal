@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f57105;
+    color: #333;
+}
+
+header {
+    background-color: #f57105;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f57105;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.login form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login form div {
+    margin-bottom: 15px;
+}
+
+.login form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.login form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #030303;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login form button:hover {
+    background-color: #f57105;
+}
+
+.dashboard {
+    margin-top: 50px;
+}
+.register form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.register form div {
+    margin-bottom: 15px;
+}
+
+.register form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.register form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f57105;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.register form button:hover {
+    background-color: #f57105;
+}
+
+.register p {
+    color: red;
+    font-size: 14px;
+}
+/* Styling for the Courses Management Page */
+.courses-management-section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);  /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.courses-management-section h1 {
+    color: orange;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff7f00; /* Orange color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e57300; /* Darker shade of orange */
+}
+
+/* Table/List for existing courses */
+#courses-list {
+    margin-top: 30px;
+}
+
+.course-item {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.course-item h3 {
+    color: orange;
+}
+
+.course-item p {
+    color: #ddd;
+}
+
+.course-item button {
+    background-color: #e57300;  /* Delete button color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.course-item button:hover {
+    background-color: #ff7f00;
+}
+/* Styling for Logout Button in the Navbar */
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #ff7f00;
+    border-radius: 5px;
+}
+
+/* Styling for logout link */
+#logout-link {
+    background-color: #ff7f00;  /* Orange color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Styling for Attendance Section */
+.attendance-section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.attendance-section h1 {
+    color: orange;
+    text-align: center;
+}
+
+/* Table Styling */
+#attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#attendance-table th, #attendance-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#attendance-table th {
+    background-color: #333;
+    color: white;
+}
+
+#attendance-table tr:nth-child(even) {
+    background-color: #444;
+}
+
+#attendance-table tr:hover {
+    background-color: #555;
+}
+/* Styling for Profile Section */
+.profile-section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.profile-section h1 {
+    color: orange;
+    text-align: center;
+}
+
+/* Styling for Profile Details */
+.profile-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile-details strong {
+    color: #ff7f00; /* Orange color */
+}
+
+/* Styling for Edit Profile Button */
+#edit-profile-btn {
+    background-color: #ff7f00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#edit-profile-btn:hover {
+    background-color: #e68a00;
+}
+
+/* Styling for Edit Form */
+.edit-form {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.edit-form h2 {
+    color: orange;
+    text-align: center;
+}
+
+.edit-form .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-form label {
+    display: block;
+    font-size: 16px;
+    color: white;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.edit-form button {
+    background-color: #ff7f00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.edit-form button:hover {
+    background-color: #e68a00;
+}
+
+#cancel-edit-btn {
+    background-color: #333;
+    margin-left: 10px;
+}
+
+#cancel-edit-btn:hover {
+    background-color: #555;
+}
+/* Styling for Feedback Section */
+.feedback-section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.feedback-section h1 {
+    color: orange;
+    text-align: center;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+    background-color: #ff7f00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+/* Thank You Message */
+#thank-you-message h2 {
+    font-size: 24px;
+}
+
+#thank-you-message p {
+    font-size: 18px;
+}
